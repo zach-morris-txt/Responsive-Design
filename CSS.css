@@ -1,3 +1,22 @@
+@media (max-width:800px){
+
+}
+@media (max-width:500px){
+       header{display:flex;
+              justify-content:center;
+              background-color:white;
+
+       }
+       nav{display:flex;
+           flex-flow:column;
+           align-items:center;
+           }
+       .Projects{margin-bottom:1rem;}
+       .Gallery1{display:flex;
+                flex-flow:column;}
+       .Gallery2{display:flex;
+                 flex-flow:column;}
+}
 header{background-color:green;
        margin-bottom:2rem;
        height:6rem;
@@ -15,14 +34,14 @@ h1{margin:1rem;
                           width:5rem;
                           height:1.5rem;
 }
-.Projects{margin-right:1rem;
+.Projects{margin-bottom:1rem;
 }
 #First{width:85%;
        height:20rem;
        margin-bottom:2rem;
 }
-.Main{position:relative;
-      text-align:center;
+.Main{text-align:center;
+      margin-top:1rem;
 }
 h3{position: absolute;
    font-size:4rem;
@@ -32,7 +51,7 @@ h3{position: absolute;
    color:purple;
    outline:1rem solid green;
 }
-#MainButton{position: absolute;
+#MainButton{position:relative;
             top:65%;
             left:50%;
             transform: translate(-50%,-50%);
