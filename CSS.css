@@ -1,0 +1,85 @@
+@media (max-width:800px){
+
+}
+@media (max-width:500px){
+       header{display:flex;
+              justify-content:center;
+              background-color:white;
+
+       }
+       nav{display:flex;
+           flex-flow:column;
+           align-items:center;
+           }
+       .Projects{margin-bottom:1rem;}
+       .Gallery1{display:flex;
+                flex-flow:column;}
+       .Gallery2{display:flex;
+                 flex-flow:column;}
+}
+header{background-color:green;
+       margin-bottom:2rem;
+       height:6rem;
+}
+nav{display:flex;
+}
+h1{margin:1rem;
+   flex:2rem;
+}
+.About,.Contact,.Projects{border:0.1rem black solid;
+                          border-radius:0.25rem;
+                          background-color:purple;
+                          text-align:center;
+                          margin-top:1rem;
+                          width:5rem;
+                          height:1.5rem;
+}
+.Projects{margin-bottom:1rem;
+}
+#First{width:85%;
+       height:20rem;
+       margin-bottom:2rem;
+}
+.Main{text-align:center;
+      margin-top:1rem;
+}
+h3{position: absolute;
+   font-size:4rem;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color:purple;
+   outline:1rem solid green;
+}
+#MainButton{position:relative;
+            top:65%;
+            left:50%;
+            transform: translate(-50%,-50%);
+}
+.Gall{width:15rem;
+      height:15rem;
+}
+.Gall1{display:flex;
+       flex-wrap:nowrap;
+       justify-content:space-around;
+       margin-bottom:3rem;
+}
+.Paragraph{display:flex;
+           justify-content:space-around;
+}
+.Gall2{display:flex;
+       justify-content:space-around;
+}
+.Paragraph2{display:flex;
+           justify-content:space-around;
+}
+footer{background-color:green;
+       margin-top:1rem;
+       height:4rem;
+}
+#Button{display:flex;
+        justify-content:center;
+}
+a{display:flex;
+                justify-content:center;
+}
